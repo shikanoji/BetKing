@@ -14,6 +14,7 @@
 		06DE233524E0FC4F00CC7889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DE233424E0FC4F00CC7889 /* Assets.xcassets */; };
 		06DE233824E0FC4F00CC7889 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DE233724E0FC4F00CC7889 /* Preview Assets.xcassets */; };
 		06DE233B24E0FC4F00CC7889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06DE233924E0FC4F00CC7889 /* LaunchScreen.storyboard */; };
+		06DE234424E3E1B200CC7889 /* RankingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DE234324E3E1B200CC7889 /* RankingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		06DE233724E0FC4F00CC7889 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		06DE233A24E0FC4F00CC7889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06DE233C24E0FC4F00CC7889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06DE234324E3E1B200CC7889 /* RankingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		06DE232A24E0FC4A00CC7889 /* BetKing */ = {
 			isa = PBXGroup;
 			children = (
+				06DE234224E3E18B00CC7889 /* SwiftUI */,
 				06DE232B24E0FC4A00CC7889 /* AppDelegate.swift */,
 				06DE232D24E0FC4A00CC7889 /* SceneDelegate.swift */,
 				06DE233224E0FC4A00CC7889 /* ContentView.swift */,
@@ -76,6 +79,14 @@
 				06DE233724E0FC4F00CC7889 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		06DE234224E3E18B00CC7889 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				06DE234324E3E1B200CC7889 /* RankingView.swift */,
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 			files = (
 				06DE232C24E0FC4A00CC7889 /* AppDelegate.swift in Sources */,
 				06DE232E24E0FC4A00CC7889 /* SceneDelegate.swift in Sources */,
+				06DE234424E3E1B200CC7889 /* RankingView.swift in Sources */,
 				06DE233324E0FC4A00CC7889 /* ContentView.swift in Sources */,
 				06DE233124E0FC4A00CC7889 /* BetKing.xcdatamodeld in Sources */,
 			);

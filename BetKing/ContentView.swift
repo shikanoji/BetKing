@@ -12,7 +12,7 @@ struct ContentView: View {
                 
                 if self.index == 0{
                     
-                    Color.black.opacity(0.05)
+                    RankingView()
                 }
                 else if self.index == 1{
                     
@@ -74,13 +74,13 @@ struct CircleTab : View {
                             .clipShape(Circle())
                             //.offset(y: -20)
                     }
-                    Text("BXH").foregroundColor(Color.black.opacity(0.7)).offset( y: 0)
+                  //  Text("BXH").foregroundColor(Color.black.opacity(0.7)).offset( y: 0)
                 }
                 
                 
             }
             
-            Spacer(minLength: 10)
+            Spacer()
             
             Button(action: {
                 
@@ -108,11 +108,11 @@ struct CircleTab : View {
                             //.offset(y: -20)
                         
                     }
-                    Text("Chơi").foregroundColor(Color.black.opacity(0.7)).offset( y: 0)
+                   // Text("Chơi").foregroundColor(Color.black.opacity(0.7)).offset( y: 0)
                 }
             }
             
-            Spacer(minLength: 10)
+            Spacer()
             
             Button(action: {
                 
@@ -140,11 +140,11 @@ struct CircleTab : View {
                           //  .offset(y: -20)
                         
                     }
-                    Text("Tin tức").foregroundColor(Color.black.opacity(0.7)).offset( y: 0)
+                   // Text("Tin tức").foregroundColor(Color.black.opacity(0.7)).offset( y: 0)
                 }
             }
             
-            Spacer(minLength: 10)
+            Spacer()
             
             Button(action: {
                 
@@ -168,16 +168,18 @@ struct CircleTab : View {
                            .clipShape(Circle())
                           // .offset(y: -20)
                    }
-                Text("Cài đặt").foregroundColor(Color.black.opacity(0.7))
+                //Text("Cài đặt").foregroundColor(Color.black.opacity(0.7))
                     
-               }
+                }
             }
             
-        }.background(Color.white)
+        }
+        .cornerRadius(5)
         .animation(.spring())
         .padding(5)
         .padding(.leading, 10)
         .padding(.trailing, 10)
         .padding(.bottom, 2)
+        .background(Color.yellow)
     }
 }
